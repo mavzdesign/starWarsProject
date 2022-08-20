@@ -5,9 +5,25 @@ body {
     sans-serif;
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
+  background-color: var(--bgcolor);
+  color: var(--main);
+  background-image: url(./asset/stars.png);
 }
 
 code {
   font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
     monospace;
+}
+:root{
+ 
+  --bgcolor: #000000;
+  --main: #FFE81F;
+  --transition: all 400ms ease;
+  --containerWidthLg: 80%;
+  --containerWidthMd: 85%;
+  --containerWidthSm: 95%;
+
+}
+html{
+  scroll-behavior: smooth;
 }

@@ -1,0 +1,28 @@
+.con{
+   position: relative;
+   /* background-color: aqua; */
+}
+.selectMovie{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    /* background-color: aqua; */
+    /* height: 100px; */
+    margin-bottom: 20px;
+    position: relative;
+
+}
+.title{
+    background-color: var(--main);
+    color: black;
+    padding: 10px 100px;
+    border-radius: 16px;
+    font-weight: 800;
+}
+@media screen and (max-width: 600px) {
+    .title{
+        padding: 10px 30px !important;
+    }
+
+    
+}

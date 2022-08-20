@@ -1,0 +1,60 @@
+.project_main{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    min-height: calc(100vh - 200px);
+ 
+}
+.top_logo>img{
+    width: 150px;
+
+}
+.top_logo{
+    display: flex;
+    padding: 20px;
+
+}
+.project_main>img{
+    width: 30%;
+}
+.conx{
+    /* background-color: aqua; */
+    width: 100%;
+    text-align: end;
+}
+.filterCon{
+    margin: 10px;
+}
+.MuiOutlinedInput-notchedOutline{
+    border: none !important;
+}
+.table_and_Filter{
+    width: 80%;
+}
+.marquee{
+    text-align: center;
+}
+@media screen and (max-width: 900px) {
+    .css-1gplja-MuiTable-root{
+        min-width: none;
+    }
+    .marquee{
+        width: 80%;
+    }
+    .top_logo{
+        justify-content: center;
+        align-items: center;
+    }
+
+    
+}
+@media screen and (max-width: 600px) {
+    .table_and_Filter{
+        width: 90%;
+    }
+    .project_main>img{
+        width: 50%;
+    }
+
+}
